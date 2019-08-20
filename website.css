@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: helvetica;
+	/* color: white; */
+	/* background-color: rgb(60, 60, 60); */
+	font-size: px;
+}
+
+
+
+.wrapper{
+	margin: 0px 50px;
+	border: 2px solid black;
+	height: vh;
+}
+
+.header{
+	background-color: #fff;
+
+}
+
+.header > h1{
+	font-family: cursive;
+	font-size: 75px;
+	padding-left: 350px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #1E92DE;
+	text-shadow: 1px 1px darkslategrey;
+
+}
+
+img{
+	width: 100%;
+	height: 56vh;
+	background-color: rgba(0, 0, 0, .4);
+	display: block;
+}
+
+.main-nav > ul{
+	background-color: #292929;
+	list-style: none;
+	padding-left: 300px;
+}
+
+.main-nav > ul > li{
+	display: inline-block;
+	padding: 15px;
+}
+
+.main-nav > ul > li > a{
+	color: white;
+	text-decoration: none;
+	font-family: cursive;
+}
+
+.main-nav > ul > li > a:hover{
+	background-color: black;
+	color: peachpuff;
+	font-size: 18px;
+	/* transition: .4s; */
+
+}
+
+
+
+.content{
+	background-color: white;
+	min-height: 560px;
+	width: 80%;
+	font-size: 18px;
+	padding: 10px;
+	float: left;
+}
+
+.sidebar{
+	background-color: white;
+	min-height: 560px;
+	width: 20%;
+	float: right;
+	border-left: 2px solid #b3b3b3;
+}
+
+
+.content::after{
+	content: "";
+	display: block;
+	clear: both;
+	*zoom: 1;
+}
+
+.sidebar > h2{
+	font-family: cursive;
+	background-color: #1e92de;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	font-family: cursive;
+	text-align: center
+}
+
+.sidebar > p{
+	font-family: calibri;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+body{
+	background-color: rgb(90, 90, 90);
+}
+
+.content > h2{
+	text-align: center;
+	margin-top: 5px;
+}
+.content > p{
+	text-align: center;
+	font-family: cursive;
+}
+
+.btn1{
+	background-color: darkslategrey;
+	color: white;
+	font-family: cursive;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 18px;
+	margin-left: 300px;
+	margin-top: ;
+}
+
+.btn1:hover{
+
+	background-color: black;
+	color: orange;
+	font-weight: bolder;
+	font-size: ;
+
+}
