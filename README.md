@@ -1,0 +1,3 @@
+# WebDev
+this is my project first time in git ....
+hey github users don't copy anyones code for your project just copy and learn and code if you want to become good developer you'll have to code by yourself.
